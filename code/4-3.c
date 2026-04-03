@@ -8,9 +8,9 @@ int main() {
     scanf("%d", &index);
 
     if(index >= 0 && index < size) {
-        printf("%d\n", index, arr[index]);
+        printf("%d\n", arr[index]);
     } else {
-        printf("Error!");
+        printf("Error!\n");
     }
 
     return 0;
